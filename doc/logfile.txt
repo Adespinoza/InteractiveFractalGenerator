@@ -1,0 +1,46 @@
+Class documentation
+<---- javadoc command: ---->
+/Applications/BlueJ 3.1.1/BlueJ.app/Contents/Frameworks/jdk.framework/Versions/A/Contents/Home/bin/javadoc
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.7
+-classpath
+/Applications/BlueJ 3.1.1/BlueJ.app/Contents/Resources/Java/bluejcore.jar:/Applications/BlueJ 3.1.1/BlueJ.app/Contents/Resources/Java/junit-4.8.2.jar:/Volumes/2015/392928/Final Project/objectdrawV1.1.2.jar:/Volumes/2015/392928/Final Project
+-d
+/Volumes/2015/392928/Final Project/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+/Applications/BlueJ 3.1.1/BlueJ.app/Contents/Resources/Java/bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+/Volumes/2015/392928/Final Project/fractalTree.java
+<---- end of javadoc command ---->
+Loading source file /Volumes/2015/392928/Final Project/fractalTree.java...
+Constructing Javadoc information...
+Standard Doclet version 1.7.0_45
+Building tree for all the packages and classes...
+Generating /Volumes/2015/392928/Final Project/doc/fractalTree.html...
+/Volumes/2015/392928/Final Project/fractalTree.java:9: warning - @Adam is an unknown tag.
+/Volumes/2015/392928/Final Project/fractalTree.java:9: warning - @2015-05-26 is an unknown tag.
+/Volumes/2015/392928/Final Project/fractalTree.java:20: warning - @iterations is an unknown tag.
+/Volumes/2015/392928/Final Project/fractalTree.java:20: warning - @ is an unknown tag.
+Generating /Volumes/2015/392928/Final Project/doc/package-frame.html...
+Generating /Volumes/2015/392928/Final Project/doc/package-summary.html...
+Generating /Volumes/2015/392928/Final Project/doc/constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating /Volumes/2015/392928/Final Project/doc/allclasses-frame.html...
+Generating /Volumes/2015/392928/Final Project/doc/allclasses-noframe.html...
+Generating /Volumes/2015/392928/Final Project/doc/index.html...
+Generating /Volumes/2015/392928/Final Project/doc/stylesheet.css...
+4 warnings
