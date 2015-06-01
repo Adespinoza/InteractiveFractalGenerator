@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=
+comment1.target=FractalTree()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ fractalTree\n\ Mostly\ used\ for\ creating\ the\ window\ for\ the\ thing\ to\ be\ printer.\ \n
+comment2.params=g
+comment2.target=void\ paintComponent(java.awt.Graphics)
+comment3.params=g\ x1\ y1\ length\ theta
+comment3.target=void\ drawFractalLine(java.awt.Graphics,\ int,\ int,\ int,\ double)
+comment3.text=\n\ Method\ creates\ branches\ for\ the\ tree\n\ @param\ x1\ the\ x-coordinate\ you\ are\ starting\ at.\n\ @param\ y1\ the\ y-coordinate\ you\ are\ starting\ at.\n\ @param\ length\ the\ length\ to\ which\ the\ fractal\ tree\ will\ grow.\ (Maximum\ length)\n\ @param\ theta\ the\ angle\ at\ which\ the\ factals\ will\ begin\ to\ diverge.\n
+numComments=4
