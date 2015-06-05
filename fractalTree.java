@@ -1,9 +1,11 @@
 import javax.swing.*; 
 import java.awt.*;
 import java.awt.Color; 
-import objectdraw.*;
+//import objectdraw.*;
 import java.awt.Graphics; 
 import java.awt.Graphics2D; 
+import javax.swing.event.*; 
+import java.util.Scanner; 
 
 /**
  * Methods for the interactive Fractal Tree 
@@ -22,21 +24,18 @@ public class FractalTree extends JComponent
 
     private double x1;                                       //Starting x-coordinate  
     private double y1;                                       //Starting y-coordinate 
-    
-    public static void main(String[] args)
-    {
-        FractalTree fractalTree = new FractalTree(); 
-        fractalTree.setVisible(true); 
-        fractalTree.setBackground(Color.black); 
-    }
-    
+
+    private JFrame window = new JFrame();
+    BranchGUI gui1 = new BranchGUI();
+    ThetaGUI gui2 = new ThetaGUI();
+    ThickGUI gui3 = new ThickGUI();
+
     /**
      * Constructor for objects of class fractalTree
      * Mostly used for creating the window for the thing to be printer. 
      */
     public FractalTree()
     {
-        JFrame window = new JFrame(); 
         window.setSize(WINDOW_WIDTH,WINDOW_HEIGHT);
         window.setTitle("Fractal Tree Generator"); 
         window.setLocationRelativeTo(null);
@@ -46,15 +45,20 @@ public class FractalTree extends JComponent
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.getContentPane().setBackground(Color.black);
     }
-       
+
     @Override
     public void paintComponent(Graphics g)
     {
         Graphics2D g2 = (Graphics2D) g;
         g.setColor(Color.green); 
-        drawFractalLine(g, WINDOW_WIDTH / 2 ,WINDOW_HEIGHT - 75, 12, -90);
+        drawFractalLine(g, WINDOW_WIDTH / 2 ,WINDOW_HEIGHT - 75, gui1.getSliderValue(), gui2.getSliderValue());
     }
     
+    public JFrame getFrame() 
+    {
+        return window; 
+    }
+
     /**
      * Method creates branches for the tree
      * @param x1 the x-coordinate you are starting at.
@@ -79,10 +83,10 @@ public class FractalTree extends JComponent
 
             drawFractalLine(g, x2, y2, length - 1, theta - 40);
             drawFractalLine(g, x2, y2, length - 1, theta + 40);
-          
+
             //drawFractalLine(g, x2, y2, length - 1, theta - 60);
             //drawFractalLine(g, x2, y2, length - 1, theta + 60);
-            
+
         }   
     }
 

@@ -1,12 +1,12 @@
 #BlueJ class context
-comment0.params=args
-comment0.target=void\ main(java.lang.String[])
-comment1.params=
-comment1.target=FractalTree()
-comment1.text=\n\ Constructor\ for\ objects\ of\ class\ fractalTree\n\ Mostly\ used\ for\ creating\ the\ window\ for\ the\ thing\ to\ be\ printer.\ \n
-comment2.params=g
-comment2.target=void\ paintComponent(java.awt.Graphics)
+comment0.params=
+comment0.target=FractalTree()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ fractalTree\r\n\ Mostly\ used\ for\ creating\ the\ window\ for\ the\ thing\ to\ be\ printer.\ \r\n
+comment1.params=g
+comment1.target=void\ paintComponent(java.awt.Graphics)
+comment2.params=
+comment2.target=javax.swing.JFrame\ getFrame()
 comment3.params=g\ x1\ y1\ length\ theta
 comment3.target=void\ drawFractalLine(java.awt.Graphics,\ int,\ int,\ int,\ double)
-comment3.text=\n\ Method\ creates\ branches\ for\ the\ tree\n\ @param\ x1\ the\ x-coordinate\ you\ are\ starting\ at.\n\ @param\ y1\ the\ y-coordinate\ you\ are\ starting\ at.\n\ @param\ length\ the\ length\ to\ which\ the\ fractal\ tree\ will\ grow.\ (Maximum\ length)\n\ @param\ theta\ the\ angle\ at\ which\ the\ factals\ will\ begin\ to\ diverge.\n
+comment3.text=\r\n\ Method\ creates\ branches\ for\ the\ tree\r\n\ @param\ x1\ the\ x-coordinate\ you\ are\ starting\ at.\r\n\ @param\ y1\ the\ y-coordinate\ you\ are\ starting\ at.\r\n\ @param\ length\ the\ length\ to\ which\ the\ fractal\ tree\ will\ grow.\ (Maximum\ length)\r\n\ @param\ theta\ the\ angle\ at\ which\ the\ factals\ will\ begin\ to\ diverge.\r\n
 numComments=4
